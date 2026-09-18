@@ -1,48 +1,48 @@
 # PySpark Lab
 
-Esempi base di PySpark: RDD, DataFrame e Spark SQL.
+Basic PySpark examples covering RDDs, DataFrames, and Spark SQL.
 
-## Requisiti
+## Requirements
 
 - Python 3
-- [Dipendenze del progetto](requirements.txt)
+- [Project dependencies](requirements.txt)
 - JupyterLab
 
-Installa le dipendenze con:
+Install the dependencies with:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Notebook
+## Notebooks
 
-| File | Contenuto |
+| File | Description |
 |---|---|
-| [01-PySpark-Get-Started.ipynb](01-PySpark-Get-Started.ipynb) | Avvio del primo programma PySpark. |
-| [02-Create-SparkContext.ipynb](02-Create-SparkContext.ipynb) | Creazione e uso di `SparkContext`. |
-| [03-Create-SparkSession.ipynb](03-Create-SparkSession.ipynb) | Creazione e uso di `SparkSession`. |
-| [04-RDD-Operations.ipynb](04-RDD-Operations.ipynb) | RDD, trasformazioni, azioni e file di testo. |
-| [05-DataFrame-Intro.ipynb](05-DataFrame-Intro.ipynb) | Introduzione ai DataFrame e confronto con gli RDD. |
-| [06-DataFrame-from-various.ipynb](06-DataFrame-from-various.ipynb) | Lettura e scrittura di CSV, JSON e Parquet. |
-| [07-DataFrame-Operations.ipynb](07-DataFrame-Operations.ipynb) | Selezione, filtri, raggruppamenti e aggregazioni. |
-| [08-Spark-SQL.ipynb](08-Spark-SQL.ipynb) | Query SQL, viste temporanee, sottoquery e window functions. |
+| [01-PySpark-Get-Started.ipynb](01-PySpark-Get-Started.ipynb) | First steps with PySpark. |
+| [02-Create-SparkContext.ipynb](02-Create-SparkContext.ipynb) | Creating and using `SparkContext`. |
+| [03-Create-SparkSession.ipynb](03-Create-SparkSession.ipynb) | Creating and using `SparkSession`. |
+| [04-RDD-Operations.ipynb](04-RDD-Operations.ipynb) | RDDs, transformations, actions, and text files. |
+| [05-DataFrame-Intro.ipynb](05-DataFrame-Intro.ipynb) | Introduction to DataFrames and comparison with RDDs. |
+| [06-DataFrame-from-various.ipynb](06-DataFrame-from-various.ipynb) | Reading and writing CSV, JSON, and Parquet files. |
+| [07-DataFrame-Operations.ipynb](07-DataFrame-Operations.ipynb) | Selecting, filtering, grouping, and aggregating data. |
+| [08-Spark-SQL.ipynb](08-Spark-SQL.ipynb) | SQL queries, temporary views, subqueries, and window functions. |
 
-## Dati di esempio
+## Sample data
 
-| File | Uso |
+| File | Usage |
 |---|---|
-| [data.txt](data/data.txt) | File di testo per gli esempi sugli RDD. |
-| [stocks.txt](data/stocks.txt) | Dati testuali sui titoli azionari. |
-| [persons.csv](data/persons.csv) | Dati di persone in formato CSV. |
-| [products.csv](data/products.csv) | Prodotti in formato CSV. |
-| [products_singleline.json](data/products_singleline.json) | Prodotti in JSON su una riga per record. |
-| [products_multiline.json](data/products_multiline.json) | Prodotti in JSON su più righe. |
-| [products.parquet](data/products.parquet) | Prodotti in formato Parquet, creato da Spark. |
+| [data.txt](data/data.txt) | Text file used in the RDD examples. |
+| [stocks.txt](data/stocks.txt) | Stock market data in text format. |
+| [persons.csv](data/persons.csv) | People data in CSV format. |
+| [products.csv](data/products.csv) | Product data in CSV format. |
+| [products_singleline.json](data/products_singleline.json) | Products in single-line JSON format. |
+| [products_multiline.json](data/products_multiline.json) | Products in multi-line JSON format. |
+| [products.parquet](data/products.parquet) | Product data in Parquet format, created by Spark. |
 
-## Avvio
+## Run
 
 ```bash
-jupyter lab
+jupyter-lab
 ```
 
-Apri i notebook in ordine, da `01` a `08`.
+Open the notebooks in order, from `01` to `08`.
